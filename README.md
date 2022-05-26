@@ -30,6 +30,10 @@ composer require rebing/graphql-laravel
 `php artisan migrate --path=/database/migrations/2022_05_25_112619_create_jobs_table.php`,
 `php artisan migrate --path=/database/migrations/2019_08_19_000000_create_failed_jobs_table.php`
 
+### .env
+в .env добавить
+`QUEUE_CONNECTION=database`
+
 ### Создание лидов
 POST:
 ```js
